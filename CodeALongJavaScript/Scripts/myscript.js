@@ -35,6 +35,5 @@ function printResult(result)
 document.getElementById("submitBtn").onclick =
     function ()
     {
-        var result = fizzBuzz();
-        printResult(result);
+        printResult(fizzBuzz());
     }
